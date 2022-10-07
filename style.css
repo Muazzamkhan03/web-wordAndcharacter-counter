@@ -30,8 +30,23 @@ footer{
 
 .container{
     border: 2px solid red;
+    min-width: 84vw;
 }
 
+.text{
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.stats{
+    border: 2px solid green;
+    display: inline-block;
+}
+
+.btns{
+    border: 2px solid white;
+    display: inline;
+}
 textarea{
     resize: none;
 }
