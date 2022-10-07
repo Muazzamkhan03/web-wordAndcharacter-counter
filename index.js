@@ -3,7 +3,8 @@ function count(){
 }
 
 function clear(){
-    console.log("clear is clicked");
+    const textArea = document.querySelector("#text");
+    textArea.value = "";
 }
 
 document.querySelector("#count").addEventListener("click",count);
