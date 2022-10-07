@@ -74,6 +74,10 @@ textarea{
     margin: 2vw 1vw;
 }
 
+.stats span{
+    font-weight: bolder;
+}
+
 .btns{
     position: absolute;
     top: 68vh;
