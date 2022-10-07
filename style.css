@@ -7,6 +7,10 @@ header{
     background-color: red;
     min-height: 10vh;
     min-width: 100vw;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
