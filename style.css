@@ -31,6 +31,9 @@ footer{
     background-color: green;
     min-height: 10vh;
     min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
