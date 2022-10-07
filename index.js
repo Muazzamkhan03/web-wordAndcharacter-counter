@@ -5,6 +5,21 @@ function count(){
     const sentences = document.querySelector("#sentences");
     const textArea = document.querySelector("#text");
 
+    const text = textArea.value;
+
+    let wordCount = 0;
+    let charWithSpacesCount = 0;
+    let charWithoutSpacesCount = 0;
+    let sentencesCount = 0;
+
+    for(let i=0; i<text.length; i++){
+        if(text[i] != ' '){
+            charWithoutSpacesCount++;
+        }
+        charWithSpacesCount++;
+    }
+
+    console.log(charWithSpacesCount, charWithoutSpacesCount);
 }
 
 function clear(){
