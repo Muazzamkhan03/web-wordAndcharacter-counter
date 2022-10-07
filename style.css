@@ -14,9 +14,12 @@ header{
 }
 
 main{
-    background-color: black;
+    background-color: blue;
     min-height: 80vh;
-    min-width: 100vw;    
+    min-width: 100vw;  
+    display: flex;  
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
