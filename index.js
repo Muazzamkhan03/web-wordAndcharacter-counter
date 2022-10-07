@@ -3,7 +3,8 @@ function count(){
     const charWithSpaces = document.querySelector("#charwithspace");
     const charWithoutSpaces = document.querySelector("#charwithoutspace");
     const sentences = document.querySelector("#sentences");
-    
+    const textArea = document.querySelector("#text");
+
 }
 
 function clear(){
