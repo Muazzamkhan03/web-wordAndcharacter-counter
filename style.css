@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    display: relative;
+}
+
 header{
     background-color: red;
     min-height: 10vh;
@@ -32,19 +36,19 @@ footer{
 .container{
     border: 2px solid red;
     min-width: 84vw;
-    min-height: 60vh;
+    min-height: 30vh;
     display: flex;
+    margin: 0 0 1vw 0;
 }
 
 .text{
-    border: 2px solid black;
     display: inline-block;
     min-width: 70%;
     height: 100%;
+    margin: 2vh 0 1vw auto;
 }
 
 .stats{
-    border: 2px solid green;
     display: inline-block;
     min-width: 29%;
     min-height: 100%;    
@@ -67,4 +71,5 @@ textarea{
     resize: none;
     min-width: 98%;
     min-height: 100%;
+    border: 2px solid black;
 }
