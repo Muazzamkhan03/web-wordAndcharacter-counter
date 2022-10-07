@@ -1,5 +1,9 @@
 function count(){
-    console.log("count is clicked");
+    const words = document.querySelector("#words");
+    const charWithSpaces = document.querySelector("#charwithspace");
+    const charWithoutSpaces = document.querySelector("#charwithoutspace");
+    const sentences = document.querySelector("#sentences");
+    
 }
 
 function clear(){
