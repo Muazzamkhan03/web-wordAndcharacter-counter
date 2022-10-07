@@ -19,12 +19,24 @@ function count(){
         charWithSpacesCount++;
     }
 
-    
+    words.innerHTML = wordCount;
+    charWithSpaces.innerHTML = charWithSpacesCount;
+    charWithoutSpaces.innerHTML = charWithoutSpacesCount;
+    sentences.innerHTML = sentencesCount;
 }
 
 function clear(){
     const textArea = document.querySelector("#text");
+    const words = document.querySelector("#words");
+    const charWithSpaces = document.querySelector("#charwithspace");
+    const charWithoutSpaces = document.querySelector("#charwithoutspace");
+    const sentences = document.querySelector("#sentences");
+
     textArea.value = "";
+    words.innerHTML = 0;
+    charWithSpaces.innerHTML = 0;
+    charWithoutSpaces.innerHTML = 0;
+    sentences.innerHTML = 0;
 }
 
 document.querySelector("#count").addEventListener("click",count);
