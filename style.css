@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: red;
+    min-height: 10vh;
+    min-width: 100vw;
+}
+
+main{
+    background-color: black;
+    min-height: 80vh;
+    min-width: 100vw;    
+}
+
+footer{
+    background-color: green;
+    min-height: 10vh;
+    min-width: 100vw;
+}
