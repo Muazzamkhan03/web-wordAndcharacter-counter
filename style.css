@@ -48,6 +48,13 @@ footer{
     margin: 2vh 0 1vw auto;
 }
 
+textarea{
+    resize: none;
+    min-width: 98%;
+    min-height: 100%;
+    border: 2px solid black;
+}
+
 .stats{
     display: inline-block;
     min-width: 29%;
@@ -64,17 +71,20 @@ footer{
 }
 
 .btns{
-    border: 2px solid white;
     position: absolute;
     top: 68vh;
     bottom: auto;
     right: 10vw;
     left: auto;
+    display: flex;
+
 }
 
-textarea{
-    resize: none;
-    min-width: 98%;
-    min-height: 100%;
-    border: 2px solid black;
+.btns button{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
 }
