@@ -18,6 +18,7 @@ main{
     min-height: 80vh;
     min-width: 100vw;  
     display: flex;  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -31,22 +32,39 @@ footer{
 .container{
     border: 2px solid red;
     min-width: 84vw;
+    min-height: 60vh;
+    display: flex;
 }
 
 .text{
     border: 2px solid black;
     display: inline-block;
+    min-width: 70%;
+    height: 100%;
 }
 
 .stats{
     border: 2px solid green;
     display: inline-block;
+    min-width: 29%;
+    min-height: 100%;    
+}
+
+.stats h3{
+    margin: 1vw 10vw;
+    text-decoration: underline;
+}
+
+.stats p{
+    margin: 2vw 1vw;
 }
 
 .btns{
     border: 2px solid white;
-    display: inline;
 }
+
 textarea{
     resize: none;
+    min-width: 98%;
+    min-height: 100%;
 }
