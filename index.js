@@ -6,11 +6,11 @@ function count(){
     const textArea = document.querySelector("#text");
 
     const text = textArea.value;
-
-    let wordCount = 0;
+    
+    let wordCount = text.split(" ").length;
     let charWithSpacesCount = 0;
     let charWithoutSpacesCount = 0;
-    let sentencesCount = 0;
+    let sentencesCount = text.split(".").length;
 
     for(let i=0; i<text.length; i++){
         if(text[i] != ' '){
@@ -19,7 +19,7 @@ function count(){
         charWithSpacesCount++;
     }
 
-    console.log(charWithSpacesCount, charWithoutSpacesCount);
+    
 }
 
 function clear(){
