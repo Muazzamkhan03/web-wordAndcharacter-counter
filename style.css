@@ -4,7 +4,7 @@
 }
 
 body{
-    display: relative;
+    position: relative;
 }
 
 header{
@@ -65,6 +65,11 @@ footer{
 
 .btns{
     border: 2px solid white;
+    position: absolute;
+    top: 68vh;
+    bottom: auto;
+    right: 10vw;
+    left: auto;
 }
 
 textarea{
